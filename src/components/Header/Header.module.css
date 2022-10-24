@@ -1,0 +1,20 @@
+.header {
+  padding-top: 64px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #f5f5f5;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 77px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.header_subtitle {
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+}

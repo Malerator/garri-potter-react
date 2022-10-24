@@ -1,0 +1,30 @@
+.card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+.card_image img {
+  display: block;
+  object-fit: cover;
+}
+
+.card_items {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.card_items_h3 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #152536;
+}
+
+.card_items_p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #152536;
+}
