@@ -4,7 +4,7 @@ import { Form } from '../../ui/Form/Form'
 import s from './Header.module.css'
 
 
-export const Header = () => {
+export const Header = ({setName, setSchool}) => {
   return (
     <header className={s.header}>
       <Container>
@@ -12,7 +12,7 @@ export const Header = () => {
         <p className={s.header_subtitle}>
           View all characters from the Harry Potter universe
         </p>
-        <Form/>
+        <Form setName={setName} setSchool={setSchool}/>
       </Container>
       
     </header>
