@@ -28,14 +28,9 @@
   border-radius: 5px;
 }
 
-.input::placeholder {
-  color: #abb5be;
-}
-
 .select {
   display: block;
   box-sizing: border-box;
-  /* padding: 9px 90px 9px 15px; */
   padding-left: 15px;
   width: 216px;
   height: 38px;
@@ -46,4 +41,7 @@
   color: #abb5be;
   border: 1px solid #ced4da;
   border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
